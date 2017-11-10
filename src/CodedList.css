@@ -1,0 +1,11 @@
+.coded-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+@media(max-width: 580px){
+    .coded-list{
+        display:block;
+    }
+}
